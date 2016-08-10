@@ -1,0 +1,32 @@
+{
+    "name": "sizeg/yii2-directory",
+    "description": "Yii2 simple crud for editing directory, handbook, reference, catalog, manual, compendium",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "crud",
+        "directory"
+    ],
+    "homepage": "https://github.com/sizeg/yii2-directory",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Demin",
+            "email": "sizemail@gmail.com",
+            "homepage": "http://size.perm.ru",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/sizeg/yii2-directory/issues",
+        "source": "https://github.com/sizeg/yii2-directory"
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sizeg\\directory\\": ""
+        }
+    }
+}
